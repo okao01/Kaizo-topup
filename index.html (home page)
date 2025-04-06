@@ -1,0 +1,53 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Top-Up Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h1>GameTopUp</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+                <li><a href="history.html">History</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="products-grid">
+            <!-- MLBB Products -->
+            <div class="product-card">
+                <img src="mlbb-logo.png" alt="MLBB Diamonds">
+                <h3>5 Diamonds</h3>
+                <p class="price">₹12</p>
+                <button onclick="location.href='checkout.html?product=5 Diamonds&price=12'">Buy Now</button>
+            </div>
+            
+            <!-- Add all other MLBB products similarly -->
+            
+            <!-- BGMI Products -->
+            <div class="product-card">
+                <img src="bgmi-logo.png" alt="BGMI UC">
+                <h3>60 UC</h3>
+                <p class="price">₹75</p>
+                <button onclick="location.href='checkout.html?product=60 UC&price=75'">Buy Now</button>
+            </div>
+            
+            <!-- Add all other BGMI products similarly -->
+            
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Contact via WhatsApp: <a href="https://wa.me/+919366798553">+91 93667 98553</a></p>
+        </div>
+    </footer>
+</body>
+</html>
